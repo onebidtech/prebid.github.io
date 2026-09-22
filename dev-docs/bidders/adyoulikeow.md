@@ -3,7 +3,7 @@ layout: bidder
 title: AdyoulikeOW
 description: Prebid Adyoulike OW Bidder Adaptor
 pbjs: true
-pbs: true
+pbs: false
 media_types: banner, video
 biddercode: adyoulikeow
 userIds: criteo, sharedId
@@ -13,13 +13,15 @@ usp_supported: true
 floors_supported: true
 schain_supported: true
 sidebarType: 1
+safeframes_ok: true
+multiformat_supported: will-bid-on-one
 ---
 
-### Note
+## Note
 
 The Adyoulike OW Header Bidding adaptor requires setup and approval from the Adyoulike team. Please reach out to your account manager or <prebid-owayl@adyoulike.com> for more information.
 
-### Bid Params
+## Bid Params
 
 {: .table .table-bordered .table-striped }
 | Name | Scope | Description | Example | Type |
